@@ -12,6 +12,9 @@ body {
     background: #FAFAFA;
     font-family: 'Arvo', serif;
     font-size: 17px;
+    width: 1300px;
+    max-width: 90%;
+    margin: 0 auto;
 
 
 }
@@ -68,6 +71,7 @@ p {
     max-width: 50%;
     display: block;
     margin: 0 auto;
+    border-radius: 30%;
 
 }
 #portfolio{
@@ -105,7 +109,7 @@ p {
 }
 
 
-.backToTop {
+.backtotop {
     float: right;
 }
 
@@ -121,6 +125,9 @@ a {
 a:visited,
 a:link {
     color: black;
+}
+a:hover {
+  color: #277CF2;
 }
 /****************
   Containers
@@ -177,7 +184,9 @@ a:link {
     }
     .profile-pic{
       float: right;
-      padding-bottom: 50px;
+      margin-right: 50px;
+      height: 225px;
+      width: 225px;
 }
 
 
@@ -194,7 +203,7 @@ a:link {
         text-decoration: underline;
     }
 
-    .backToTop {
+    .backtotop {
         display: none;
     }
     .main-footer {
@@ -271,15 +280,11 @@ a:link {
         padding-left: 50px;
 
     }
-    .contact p {
-      text-align: center;
-      max-width: 30%;
-    }
 
     .profile-pic {
-      margin: 0;
-      float: right;
-      padding-bottom: 100px;
+      width:250px;
+      height:250px;
+
     }
 
 
